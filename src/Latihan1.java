@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Latihan1 {
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int pilih = -1;
@@ -30,8 +28,6 @@ public class Latihan1 {
                     System.out.println("Pilihan tidak valid ");
                     break;
             }
-
-
         }
         input.close();
     }
